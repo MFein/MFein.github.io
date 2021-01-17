@@ -259,6 +259,9 @@ ul#nav li.current a { color: #F06000; }
 	-moz-column-rule: 1px single grey; /* Mozilla Firefox */
 	column-rule: 1px single grey;
 }
+#resume li::before {
+    content: "\2022"; /* Unicode bullet symbol */
+}
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
